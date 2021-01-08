@@ -1,0 +1,27 @@
+{
+  "name": "pakta-library-components",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "start-storybook",
+    "build": "webpack --mode production",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@storybook/addon-knobs": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
