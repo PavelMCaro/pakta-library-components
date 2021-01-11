@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 export const InputWrapper = styled.div`
     position: relative;
     width: 320px;
+    font-family: Gilroy;
 `;
 
 export const InputStyled = styled.input`
@@ -21,6 +22,7 @@ export const InputStyled = styled.input`
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
     width: 100%;
+    font-family: Gilroy;
 `;
 
 export const Label = styled.label`

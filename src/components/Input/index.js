@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { InputWrapper, InputStyled, Label } from './styled';
+import { GlobalStyles } from '../../assets/fonts';
 
 export const Input = ({ placeholder, onBlur }) => {
 
@@ -15,6 +16,7 @@ export const Input = ({ placeholder, onBlur }) => {
 
     return (
         <InputWrapper>
+            <GlobalStyles />
             <InputStyled
                 onFocus={() => setActive(true)}
                 onBlur={e => handleBlur(e)}
